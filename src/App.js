@@ -11,7 +11,7 @@ function App() {
         <form action="">
           <div className='display'>
             <input type="text" value={value} />
-          </div>
+          </div>    
           <div>
             <input type="button" value="AC" onClick={e => setValue('')}/>
             <input type="button" value="DE" onClick={e => setValue(value.slice(0, -1))}/>
